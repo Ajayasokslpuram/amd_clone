@@ -1,0 +1,179 @@
+
+html,body {
+    margin:0 !important;
+    padding:0 !important;
+    overflow-x:hidden;
+    }
+
+.first-nav{
+    padding: 1.5em 1em !important;
+    color:aliceblue !important;
+    border-bottom: .15em solid rgb(216, 213, 213) !important;
+    font-size: .9em !important;
+    height: 1rem !important;
+}
+
+.navbar{
+   
+    background-color: black !important;
+    font-weight: 500 !important;
+}
+ul{
+  
+    padding-right: 2em;
+}
+nav a{
+    padding-left: 2em !important;
+}
+
+/*========================
+horizontal bg with cards
+========================*/
+
+.my-Container{
+    padding: 0!important;
+   margin: 0!important;
+   
+    
+}
+.poly-block{
+    border-top: .4em solid rgb(216, 213, 213);
+    background-size: cover;
+    
+}
+@media (max-width:1000px) {
+    .poly-block {
+      min-height: 100vh;
+    }
+
+}
+
+.my-cards{
+background-color: rgba(0, 0, 0, 0) !important;
+color: white !important;    
+border: none !important;
+padding: 1rem;
+
+}
+
+.card-with-title{
+    border-radius: 0px!important;
+    font-size: 1.2rem;
+    padding: 1em 1em;
+    background-color: rgba(0, 0, 0, .7) !important;
+    margin: 0em 2em;
+}
+
+.btn-primary{   
+    margin-top: 1em;
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: solid .2rem white !important;
+    border-radius: 0px !important;
+    font-weight: 500!important;
+}
+
+.my-card-group{
+    margin-top: 2em;
+    padding:2rem;
+    
+}
+.my-card-btn{
+    font-weight: 500 !important;
+    border:solid  rgba(0, 0, 0, 1) !important;
+    border-radius: 0px !important;
+  
+}
+@media(max-width:1000px){
+    .cart-check-row{
+        display: flex;
+        justify-content: center !important;
+        margin-left: em !important;
+    }
+}
+
+
+
+
+.form-control.success input{
+    border-color: #2ecc71;
+}
+
+.form-control.error select{
+    border-color: #e74c3c !important;
+}
+
+
+
+.form-control{
+    position: relative;
+
+}
+.form-control i{
+   visibility: hidden;
+   position: absolute;
+   top:76px
+}
+
+.form-control.success i.fa-check-circle{
+visibility: visible;
+color: #2ecc71;
+
+}
+.form-control.success i.second.fa-check-circle{
+    visibility: visible;
+    color: #2ecc71;
+    top:123px; 
+    }
+
+.form-control.error i.fa-exclamation-circle{
+    visibility: visible;
+    color: #e74c3c;
+}
+.form-control.error i.second.fa-exclamation-circle{
+    visibility: visible;
+    top:123px;
+}
+
+
+
+
+.form-control small{
+visibility: hidden;
+margin-left:1.5em;
+}
+
+.form-control.error small{
+    visibility: visible;
+    color: #e74c3c;
+    z-index: 1;
+    margin: 2em;
+}
+.form-control.success small{
+    visibility: visible;
+    color: #2ecc71;
+}
+
+
+.form button{
+    background-color: grey;
+
+}
+.label-form{
+    color:white;
+}
+.form-control.error{
+    margin-top: 2em;
+    border: none;
+    background-color:#212529;
+    color:black !important;
+   
+}
+
+.form-control.success{
+margin-top: 2em;
+border: none;
+background-color: #212529;
+color:black !important;
+
+
+}
